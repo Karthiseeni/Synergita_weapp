@@ -1,0 +1,12 @@
+.navbar {
+  background: #eadef3;
+  font-size: large;
+}
+.logoimg {
+  height: 50px;
+  width: 100px;
+  align-items: center;
+}
+.nav-link {
+  color: #000 !important;
+}

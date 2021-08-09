@@ -1,0 +1,23 @@
+.feature {
+  box-sizing: border-box;
+  background: #000428;
+  background: -webkit-linear-gradient(to bottom, #3e00b1, #2d005a);
+  background: linear-gradient(to bottom, #3e00b1, #2d005a);
+  color: #fff;
+  padding: 1.5rem;
+}
+.featureHeader {
+  padding-bottom: 10px;
+}
+.featuresImg {
+  display: block;
+  height: 40px;
+}
+.subHeading {
+  font-size: large;
+  padding: 10px 0;
+}
+.para {
+  font-size: medium;
+  line-height: 20px;
+}
