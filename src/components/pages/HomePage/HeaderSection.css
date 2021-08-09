@@ -1,0 +1,26 @@
+.hero-header {
+  background: #eadef3;
+  background: -webkit-linear-gradient(to bottom, #eadef3, #ffffff);
+  background: linear-gradient(to bottom, #eadef3, #ffffff);
+}
+.hero-heading {
+  padding-bottom: 10px;
+}
+.headerOne {
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px;
+  padding-top: 50px;
+}
+.headerTwo {
+  text-align: center;
+  text-decoration: none;
+  padding: 2px;
+}
+.header_img {
+  display: flex;
+  margin: auto;
+  padding-top: 150px;
+  padding-bottom: 25px;
+}
