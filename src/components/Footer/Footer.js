@@ -17,7 +17,7 @@ function Footer() {
             <Button buttonStyle='btn--outline' buttonColor='orange'>Start free trail <i className="fas fa-arrow-right"></i></Button>
           </div>
         </section>
-        <div className="container my-3">
+        <div className="container my-3 pt-5">
           <section className="text-center text-lg-start" >
             <div className="container px-5 mx-3">
               <div className="row">
