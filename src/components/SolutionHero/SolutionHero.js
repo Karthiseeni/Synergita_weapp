@@ -23,7 +23,7 @@ function SolutionHero({
               flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
             }}
           >
-            <div className='col-xl-4 col-md-6 col-sm-12'>
+            <div className='col-xl-6 col-md-6 col-sm-12'>
               <div className='solution__hero-text-wrapper'>
                 <div className='top-line'>{topLine}</div>
                 <h1 className={lightText ? 'heading' : 'heading dark'}>
@@ -41,7 +41,7 @@ function SolutionHero({
                   : null}
               </div>
             </div>
-            <div className='col'>
+            <div className='col-xl-6 col-md-6 col-sm-12'>
               <div className='solution__hero-img-wrapper'>
                 <img src={img} alt={alt} className='solution__hero-img' />
               </div>

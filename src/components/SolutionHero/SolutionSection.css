@@ -17,19 +17,11 @@
 }
 .list-para {
   text-decoration: none;
-  font-size: medium;
+  font-weight: normal;
+  font-size: 14px;
   line-height: 24px;
 }
-.solution__hero-img-wrapper {
-  max-width: 555px;
-}
-.solution__hero-img {
-  max-width: 95%;
-  margin-top: 0;
-  margin-right: 0;
-  margin-left: 10px;
-  padding-right: 0;
-}
+
 img {
   border: 0;
   max-width: 100%;
