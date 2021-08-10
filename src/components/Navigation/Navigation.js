@@ -16,7 +16,7 @@ function Navigation() {
       <IconContext.Provider value={{ color: '#fff' }}>
         <nav className="navbar navbar-expand-lg p-2">
           <div className="container-fluid container">
-            <button class="navbar-toggler ml-auto custom-toggler"
+            <button className="navbar-toggler ml-auto custom-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-target="#navbarTogglerDemo03"
@@ -24,7 +24,7 @@ function Navigation() {
               aria-controls="navbarTogglerDemo03"
               aria-expanded="false"
               aria-label="Toggle navigation"
-            ><span class="navbar-toggler-icon" onClick={handleClick}>  {click ? <FaTimes style={{ color: "black" }} /> : <FaBars style={{ color: "black" }} />}</span>
+            ><span className="navbar-toggler-icon" onClick={handleClick}>  {click ? <FaTimes style={{ color: "black" }} /> : <FaBars style={{ color: "black" }} />}</span>
             </button>
             <Link className="navbar-brand" href="/"><img className='logoimg m-3' src={LogoImg} alt='Synergita-logo' /></Link>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo03">

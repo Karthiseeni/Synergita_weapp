@@ -9,7 +9,7 @@ function Footer() {
       <div className='footer-container'>
         <section className='footer-header row p-3'>
           <div className='col-xl-8 col-md-8 col-sm-12 '>
-            <h3>
+            <h3 className='px-3'>
               Discover the Power of <br /> Continous Employee <br /> Performance and Engagement
             </h3>
           </div>
@@ -97,20 +97,20 @@ function Footer() {
                       <Link className='text-reset' href="#!"><i className="fa fa-envelope p-2" aria-hidden="true"></i>info@synergita.com</Link>
                     </li>
                     <li>
-                      <ul className='pt-3 p-0' style={{ fontSize: "24px" }}>
-                        <Link href="" className="me-2 p-1">
+                      <ul className='p-0 pt-3' style={{ fontSize: "24px" }}>
+                        <Link href="" className="me-2 ">
                           <i className="fab fa-facebook-f "></i>
                         </Link>
-                        <Link href="" className="me-2 p-1">
+                        <Link href="" className="me-2">
                           <i className="fab fa-twitter  "></i>
                         </Link>
-                        <Link href="" className="me-2 p-1">
+                        <Link href="" className="me-2">
                           <i className="fab fa-linkedin "></i>
                         </Link>
-                        <Link href="" className="me-2 p-1">
+                        <Link href="" className="me-2">
                           <i className="fab fa-youtube "></i>
                         </Link>
-                        <Link href="" className="me-2 p-1">
+                        <Link href="" className="me-2">
                           <i className="fab fa-instagram "></i>
                         </Link>
                         <Link href="" className="me-2 p-1">

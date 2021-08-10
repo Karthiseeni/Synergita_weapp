@@ -2,6 +2,9 @@
   background: #f3e8fc;
   font-size: small;
 }
+.container {
+  width: 1000px;
+}
 .logoimg {
   height: 50px;
   width: 100px;
