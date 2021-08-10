@@ -17,9 +17,9 @@ function Footer() {
             <Button buttonStyle='btn--outline' buttonColor='orange'>Start free trail <i className="fas fa-arrow-right"></i></Button>
           </div>
         </section>
-        <div className="container my-5">
+        <div className="container my-3">
           <section className="text-center text-lg-start" >
-            <div className="container p-5 pt-0 m-3 mt-0">
+            <div className="container px-5 mx-3">
               <div className="row">
                 <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
                   <h5>Company</h5>
@@ -126,7 +126,7 @@ function Footer() {
         </div>
       </div>
       <div className="container pt-2">
-        <section className='container px-5 mx-2'>
+        <section className='container px-5 mx-'>
           <div className='row'>
             <div className='col-xl-9 col-md-8 col-sm-12 '>
               <Link className='text-reset p-3 px-0'>Terms of Service</Link>
