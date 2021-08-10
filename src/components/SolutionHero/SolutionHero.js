@@ -25,7 +25,7 @@ function SolutionHero({
           >
             <div className='col-xl-6 col-md-6 col-sm-12'>
               <div className='solution__hero-text-wrapper'>
-                <div className='top-line'>{topLine}</div>
+                <small>{topLine}</small>
                 <h1 className={lightText ? 'heading' : 'heading dark'}>
                   {headline}
                 </h1>
