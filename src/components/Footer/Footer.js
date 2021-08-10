@@ -126,7 +126,7 @@ function Footer() {
         </div>
       </div>
       <div className="container pt-2">
-        <section className='container px-5 mx-'>
+        <section className='container px-5 mx-3'>
           <div className='row'>
             <div className='col-xl-9 col-md-8 col-sm-12 '>
               <Link className='text-reset p-3 px-0'>Terms of Service</Link>
