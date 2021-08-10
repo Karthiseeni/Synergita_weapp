@@ -1,7 +1,7 @@
 .hero-header {
   background: #eadef3;
-  background: -webkit-linear-gradient(to bottom, #eadef3, #ffffff);
-  background: linear-gradient(to bottom, #eadef3, #ffffff);
+  background: -webkit-linear-gradient(to bottom, #f3e8fc, #ffffff);
+  background: linear-gradient(to bottom, #f3e8fc, #ffffff);
 }
 .hero-heading {
   padding-bottom: 10px;
