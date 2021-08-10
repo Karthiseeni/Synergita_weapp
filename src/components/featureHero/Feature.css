@@ -1,8 +1,8 @@
 .feature {
   box-sizing: border-box;
   background: #000428;
-  background: -webkit-linear-gradient(to bottom, #280074, #1f003d);
-  background: linear-gradient(to bottom, #26006d, #220044);
+  background: -webkit-linear-gradient(to bottom, #2f0086, #1f003d);
+  background: linear-gradient(to bottom, #350097, #220044);
   color: #fff;
   padding: 2rem;
 }
