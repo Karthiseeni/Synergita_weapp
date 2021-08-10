@@ -127,14 +127,14 @@ function Footer() {
           </section>
         </div>
       </div>
-      <section className='container row '>
-        <div className='col-xl-8 col-md-8 col-sm-12'>
-          <Link className='text-reset p-3 '>Terms of Service</Link>
-          <Link className='text-reset p-3 '>Privacy Policy</Link>
-          <Link className='text-reset p-3 '>Support</Link>
-          <Link className='text-reset p-3 '>Blog</Link>
+      <section className='container row'>
+        <div className='col-xl-9 col-md-8 col-sm-12 text-center '>
+          <Link className='text-reset '>Terms of Service</Link>
+          <Link className='text-reset p-2 '>Privacy Policy</Link>
+          <Link className='text-reset p-2'>Support</Link>
+          <Link className='text-reset '>Blog</Link>
         </div>
-        <div className=' col-xl-4 col-md-4 col-sm-12 '>
+        <div className='col-xl-3 col-md-4 col-sm-12 text-center '>
           <Link className='text-reset'>Copyright &#169; 2020 | Synergita</Link>
         </div>
       </section>
