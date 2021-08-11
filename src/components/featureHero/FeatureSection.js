@@ -9,7 +9,7 @@ function FeatureSection() {
     <div className='feature'>
       <div className="container">
         <h2 >Why First-Time OKR Users Prefer</h2>
-        <h2 className='featureHeader'>Synergita OKR?</h2>
+        <h2 className='featureHeader pb-4'>Synergita OKR?</h2>
         <div className="row">
           <FeaturesHero {...featureObjOne} />
           <FeaturesHero {...featureObjTwo} />
