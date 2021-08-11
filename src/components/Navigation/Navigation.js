@@ -14,7 +14,7 @@ function Navigation() {
   return (
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
-        <nav className="navbar navbar-expand-lg p-2">
+        <nav className="navbar navbar-expand-lg p-2 pb-0">
           <div className="container-fluid container">
             <button className="navbar-toggler ml-auto custom-toggler"
               type="button"
@@ -28,7 +28,7 @@ function Navigation() {
             </button>
             <Link className="navbar-brand" href="/"><img className='logoimg m-3' src={LogoImg} alt='Synergita-logo' /></Link>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav me-auto mb-lg-0">
                 <li className="nav-item nav-link dropdown">Products <img src={dropDown_arrow} alt="" />
                   <div className="dropdown-content p-3">
                     <p>Synergita Engage</p>
@@ -43,7 +43,7 @@ function Navigation() {
                 <li className="nav-item">
                   <Link className="nav-link" href="/" >Customers</Link>
                 </li>
-                <li className="nav-item nav-link dropdown">Company <img src={dropDown_arrow} alt="" />
+                <li className="nav-item nav-link dropdown">Company <img src={dropDown_arrow} alt="dropdownArrow" />
                   <div className="dropdown-content p-3">
                     <Link to='/' className='nav-link'>peopleMAGIC</Link>
                     <Link to='/' className='nav-link'>About Us</Link>
