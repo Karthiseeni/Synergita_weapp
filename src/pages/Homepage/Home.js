@@ -1,4 +1,3 @@
-import React from 'react'
 import { homeObjFive, homeObjFour, homeObjOne, homeObjThree, homeObjTwo } from '../../components/Data/SolutionData'
 import FeatureSection from '../../components/featureHero/FeatureSection'
 import SolutionHero from '../../components/SolutionHero/SolutionHero'

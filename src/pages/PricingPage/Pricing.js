@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from './Button';
 import './Pricing.css';
 import { FaFire } from 'react-icons/fa';

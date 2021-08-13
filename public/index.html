@@ -36,6 +36,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <div id="bot-container"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -46,5 +47,20 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="text/javascript">
+      (function () {
+        function async_load() {
+          var bt_ads = document.createElement('script');
+          bt_ads.setAttribute('async', true);
+          bt_ads.setAttribute('type', 'text/javascript');
+          bt_ads.src =
+            'https://bot.surbo.io/static/1.0.1/js/custom/widget_surbo.js?id=61166bb29602c7284e50bb82&srb_1=&srb_2=&srb_3= &screen_size=normal &widget_location=right &widget_popup_time=10&type=icon&fname=&lname=&email=';
+          var node = document.getElementsByTagName('script')[0];
+          node.parentNode.insertBefore(bt_ads, node);
+        }
+        if (window.attachEvent) window.attachEvent('onload', async_load);
+        else window.addEventListener('load', async_load, false);
+      })();
+    </script>
   </body>
 </html>

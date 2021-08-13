@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Feature.css'
 import { featureObjFive, featureObjFour, featureObjOne, featureObjThree, featureObjTwo } from '../Data/FeatureData'
 import FeaturesHero from './FeatureHero'
